@@ -1,0 +1,225 @@
+/* General */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EAEDED;
+    margin: 0;
+}
+
+/* Header */
+.header-top-bar {
+    background-color: #131921;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-top-bar p {
+    color: #fff;
+}
+
+.header-top-bar a img {
+    height: 30px;
+}
+
+.header-top-bar .flag {
+    height: 30px;
+}
+
+.header-search {
+    background-color: #fff;
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.header-search-dropdown {
+    width: 50px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0 5px;
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+}
+
+.header-search input {
+    all: unset;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.header-search button {
+    all: unset;
+    background-color: #febd69;
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.header-search button:hover {
+    background-color: #f3a847;
+}
+
+.header-search button img {
+    width: 20px;
+    padding: 10px;
+}
+
+.header-menu {
+    background-color: #232f3e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-top-bar a,
+.header-menu a {
+    padding: 5px;
+    color: #fff;
+}
+
+.header-top-bar a,
+.header-menu a,
+.footer a {
+    text-decoration: none;
+}
+
+.header-top-bar a:hover,
+.header-menu a:hover {
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Page content */
+.page-content {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.page-content .hero {
+    background-color: black;
+    height: 400px;
+    background-image: url("../images/amazon-deals-banner.jpg");
+    background-size: cover;
+}
+
+/* Footer */
+.footer {
+    background-color: #232f3e;
+}
+
+.footer,
+.footer a {
+    color: #ddd;
+}
+
+.footer span,
+.footer-countries a,
+.footer-copyright a {
+    padding: 0 5px;
+}
+
+.footer a {
+    border-left: 1px solid #999;
+}
+
+.footer-countries a:hover,
+.footer-copyright a:hover {
+    text-decoration: underline;
+}
+
+.footer a:first-child {
+    border-left: none;
+}
+
+
+.footer-logo {
+    padding: 15px 0;
+}
+
+.footer-logo,
+.footer-dont-forget,
+.footer-countries,
+.footer-copyright {
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 25px;
+}
+
+.footer-countries {
+    margin: 10px auto;
+}
+
+.footer-copyright {
+    background-color: #131a22;
+    padding: 10px 0 30px 0;
+}
+
+.page-content button {
+    all: unset;
+    color: aqua;
+    background-color: #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.page-content button:hover {
+    background-color: #f3a847;
+}
+
+.shop-dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.shop-dropdown:hover .shop-dropdown-content {
+    display: block;
+}
+
+.shop-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-back-to-top-button {
+    background-color: #37475A;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-back-to-top-button:hover {
+    background-color: #f3a847;
+
+}
