@@ -130,6 +130,41 @@ body {
     background-size: cover;
 }
 
+/* Cards */
+.cards {
+    display: flex;
+    margin: -140px 10px 0;
+}
+
+.page-content .card {
+    background-color: #fff;
+    margin: 0 10px;
+    padding: 20px;
+    width: calc(100%/4 - 20px);
+    height: 400px;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.card .sales-badge {
+    padding: 2px;
+    background-color: #CC0C39;
+    color: #fff;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+
 /* Footer */
 .footer {
     background-color: #232f3e;
@@ -159,6 +194,16 @@ body {
     border-left: none;
 }
 
+.footer .spacer {
+    width: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
 
 .footer-logo {
     padding: 15px 0;
